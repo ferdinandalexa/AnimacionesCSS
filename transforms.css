@@ -1,0 +1,18 @@
+body {
+    min-height: 100vh;
+}
+
+.pasteles {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
