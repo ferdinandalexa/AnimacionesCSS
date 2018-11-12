@@ -10,6 +10,17 @@ body {
     align-items: center;
 }
 
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.muestra {
+    width: 300px;
+}
+
 .row {
     min-width: 100%;
     display: flex;
