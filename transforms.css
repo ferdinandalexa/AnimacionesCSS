@@ -24,7 +24,10 @@ body {
     min-width: 100%;
     display: flex;
     justify-content: space-around;
-    margin: auto;
+}
+
+.contenedor{
+    margin: 10px;
 }
 
 .fondo{
