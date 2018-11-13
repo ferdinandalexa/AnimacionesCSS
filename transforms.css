@@ -9,6 +9,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    
 }
 
 .contenedor {
@@ -27,4 +29,16 @@ body {
     display: flex;
     justify-content: space-around;
     margin: auto;
+}
+
+.transicion{
+    transition: 0.65s;
+}
+
+.pasteles:hover{
+    opacity: 1;
+}
+
+.contenedor:hover{
+    transform: scale(1.2);
 }
