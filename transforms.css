@@ -1,16 +1,12 @@
 body {
     min-height: 100vh;
     background-image: url("./fondo.jpg");
+    background-size: 40%;
 }
 
 .pasteles {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     opacity: 0;
-    
+    margin-top: 50px;
 }
 
 .contenedor {
@@ -29,6 +25,14 @@ body {
     display: flex;
     justify-content: space-around;
     margin: auto;
+}
+
+.fondo{
+    transition: 0.5s;
+}
+
+.fondo:hover{
+    background-size: 50%;
 }
 
 .transicion{
